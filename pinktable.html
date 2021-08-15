@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="pinktable.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">HEADER</th>
+                <!-- <th>2</th> -->
+                <!-- <th>3</th> -->
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="ft">FOOTER</td>
+                <!-- <td>2</td> -->
+                <!-- <td>3</td> -->
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td colspan="3" class="mn">MENU</td>
+                <!-- <td>2</td> -->
+                <!-- <td>3</td> -->
+            </tr>
+            <tr>
+                <td class="as1">ASIDE 1</td>
+                <td rowspan="3" class="mc">MAIN CONTENT
+                    <table class="tb2">
+                        <tr class="tr2">
+                            <td class="td2">SECTION 1</td>
+                        </tr>
+                        <tr class="tr2">
+                            <td class="td2">SECTION 2</td>
+                        </tr>
+                    </table>
+                </td>
+                <!-- <td rowspan="2" class="as3">A <br> S <br> I <br> D <br> E <br> <br> 3</td> -->
+                <td rowspan="2" class="as3"> <span>A</span><span>S</span><span>I</span><span>D</span><span>E</span><br><span>3</span></td>
+            </tr>
+            <tr>
+                <td class="as2">ASIDE 2</td>
+                <!-- <td>2</td> -->
+                <!-- <td>3</td> -->
+            </tr>
+            <tr>
+                <td></td>
+                <!-- <td>2</td> -->
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
